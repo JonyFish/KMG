@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:textSize="16.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="启动防跳脚本"/>
+
+		<EditText
+			android:textSize="14.0dip"
+			android:id="@+id/jbno"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint=""/>
+
+		<TextView
+			android:textSize="16.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="关闭防跳脚本"/>
+
+		<EditText
+			android:textSize="14.0dip"
+			android:id="@+id/jboff"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint=""/>
+
+	</LinearLayout>
+
+</ScrollView>
+

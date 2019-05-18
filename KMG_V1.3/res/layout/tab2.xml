@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#00000000"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:background="#30a0a0a0"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_margin="10.0dip"
+		android:layout_above="@+id/conf"
+		android:layout_alignParentTop="true">
+
+		<TextView
+			android:textColor="#fffefefe"
+			android:gravity="center"
+			android:background="#30a0a0a0"
+			android:padding="2.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Tiny模式配置"
+			android:shadowColor="#ff000000"
+			android:shadowRadius="2.0"/>
+
+		<EditText
+			android:textSize="13.0dip"
+			android:textColor="#ff000000"
+			android:background="@null"
+			android:padding="3.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="【长按此处可以粘贴内容】"
+			android:shadowColor="#ffffffff"
+			android:shadowRadius="4.0"
+			android:layout_alignParentTop="true"
+			android:id="@+id/tab2EditText1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:id="@+id/conf"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5.0dip"
+		android:layout_alignParentBottom="true">
+
+		<Button
+			android:background="@drawable/button_style"
+			android:textColor="#fffefefe"
+			android:gravity="center"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5.0dip"
+			android:text="清空"
+			android:shadowColor="#ff000000"
+			android:shadowRadius="2.0"
+			android:layout_weight="1.0"
+			android:id="@+id/tab2TextView1"
+			android:onClick="clear"/>
+
+		<Button
+			android:background="@drawable/button_style"
+			android:textColor="#fffefefe"
+			android:gravity="center"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5.0dip"
+			android:text="保存"
+			android:shadowColor="#ff000000"
+			android:shadowRadius="2.0"
+			android:layout_weight="1.0"
+			android:id="@+id/tab2TextView2"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
